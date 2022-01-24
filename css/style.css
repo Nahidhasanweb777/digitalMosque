@@ -1,0 +1,142 @@
+
+@font-face{
+font-family: fredokaone;
+scr:url('../font/FredokaOne-Regular.ttf');
+
+}
+
+
+@font-face{
+font-family: robota1;
+scr:url('../font/RobotoMono-Italic-VariableFont_wght.ttf');
+
+}
+
+@font-face{
+font-family: robota3;
+scr:url('../font/Courgette-Regular.ttf');
+
+}
+
+
+
+
+
+
+
+
+body {
+    background-color: #ddd;
+   
+}
+
+.navbar {
+    background: #1e211f;
+}
+
+.nav-link{
+    
+    font-weight: 600;
+    font-size: 25px;
+   
+    
+}
+
+nav-link:hover{
+    color:aqua!importaint;
+    
+    transition: 0.5s;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color:aqua;
+}
+
+.clock {
+   position:relative;
+   left: 40%;
+   transform: translateX(-38%) translateY(-3%);
+    color:aqua;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+   
+
+
+}
+
+.box1{
+    margin-top: 140px;
+    width: 449px!importaint;
+    height: 126px!importaint;
+   /* border: 10px solid #343a40;*/
+    background: #1e211f;
+    color:aqua;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: robota;
+    border-radius: 5px;
+}
+
+
+
+
+.box{
+    margin-bottom:30px;
+    margin-top:30px;
+    width: 449px!importaint;
+    height: 126px!importaint;
+    /*border: 10px solid #343a40;*/
+    background: #1e211f;
+    color:aqua;
+    text-align: center;
+    font-family: fredokaone;
+    border: 2px;
+    border-radius: 5px;
+}
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: aqua;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #313335;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
